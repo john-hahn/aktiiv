@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web">
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="home.html">Home</a>
+            <a href="program.html">Program</a>
+            <a href="calendar.html">Calendar</a>
+        </div>
+        <h1>TRACKING WORKOUT DAYS</h1>
+        <form action="process-workout.php" method="post">
+            <div id="Icons">
+                <div id="chest_group" class="bodypart">
+                    <img src="images/chest.png" alt="Chest" class="Image">
+                    <label for="chest">Chest:</label>
+                    <input type="date" id="chest" name="chest">
+                </div>
+
+                <div id="back_group" class="bodypart">
+                    <img src="images/back.png" alt="Back" class="Image">
+                    <label for="back">Back:</label>
+                    <input type="date" id="back" name="back">
+                </div>
+
+                <div id="shoulders_group" class="bodypart">
+                    <img src="images/shoulder.png" alt="Shoulders" class="Image">
+                    <label for="shoulders">Shoulders:</label>
+                    <input type="date" id="shoulders" name="shoulders">
+                </div>
+
+                <div id="biceps_group" class="bodypart">
+                    <img src="images/biceps.png" alt="Biceps" class="Image">
+                    <label for="biceps">Biceps:</label>
+                    <input type="date" id="biceps" name="biceps">
+                </div>
+
+                <div id="triceps_group" class="bodypart">
+                    <img src="images/triceps.png" alt="Triceps" class="Image">
+                    <label for="triceps">Triceps:</label>
+                    <input type="date" id="triceps" name="triceps">
+                </div>
+
+                <div id="legs_group" class="bodypart">
+                    <img src="images/legs.png" alt="Legs" class="Image">
+                    <label for="legs">Legs:</label>
+                    <input type="date" id="legs" name="legs">
+                </div>
+            </div>
+            <button type="submit" name="submit">Submit</button>
+        </form>
+
+        <script src="home.js"></script>
+    </body>
+</html>
