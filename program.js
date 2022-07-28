@@ -50,7 +50,7 @@ function search_exercise() {
             $('ol li:eq(' + i + ')')[0].style.display="none";
         }
         else {
-            $('ol li:eq(' + i + ')')[0].style.display="list-item";
+            $('ol li:eq(' + i + ')')[0].style.display="inline";
         }
     }
 }
