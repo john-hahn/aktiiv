@@ -1,26 +1,26 @@
-let countEl = document.getElementById("count-el")
-let prevDate = document.getElementById("Chest")
-let currDate
-let count = 0
-console.log(prevDate)
+window.addEventListener("load", () => {
+    function sendData() {
+        const XHR = new XMLHttpRequest()
 
-function increment() {
-    count += 1
-    countEl.textContent = count
-}
+        const FD = new FormData(form)
 
-let saveEl = document.getElementById("save-el")
+        XHR.addEventListener("load", (event) => {
+            alert(event.target.responseText)
+        })
 
-function save() {
-    textContent += count + " - "
-}
+        XHR.addEventListener("error", (event) => {
+            alert("ERROR: Something went wrong")
+        })
 
-function reset() {
-    count = 0
-    countEl.textContent = count
-    saveEl.textContent = "Previous entries: "
-}
+        XHR.open("POST", "home.html/dates.php")
 
-function differenceInHours() {
+        XHR.send(FD)
+    }
 
-}
+    const form = document.getElementById("exerciseform")
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault
+        sendData()
+    })
+})
