@@ -25,3 +25,7 @@ $ open home.html
 ## Homepage
 <img width="1439" alt="Screenshot 2022-07-15 at 12 19 33 PM" src="https://user-images.githubusercontent.com/70570472/179275687-49e74e3e-3f8b-4d61-bbca-29e134fcf16c.png">
 Used to input the workouts you completed recently for each bodypart that it included. Once filled out, it is stored in the database to be accessed by the calendar.
+
+## Exercise Search
+
+## Calendar
