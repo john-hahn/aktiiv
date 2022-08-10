@@ -27,5 +27,7 @@ $ open home.html
 Used to input the workouts you completed recently for each bodypart that it included. Once filled out, it is stored in the database to be accessed by the calendar.
 
 ## Exercise Search
+![Screenshot 2022-08-10 at 12 08 00 AM](https://user-images.githubusercontent.com/70570472/183820366-87d2d67c-a717-4ff8-a418-c142ac980df7.png)
 
 ## Calendar
+![Screenshot 2022-08-10 at 12 09 30 AM](https://user-images.githubusercontent.com/70570472/183820481-e8a475a2-426d-4389-8181-16e152e6f706.png)
