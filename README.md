@@ -6,7 +6,7 @@
 
 A full-stack web application that allows users to track their workout dates and improve and refine their workouts by searching up exercises that use the body part they want to target. 
 
-This is a personal project I started during my full-stack software developer internship in Summer 2022 at Edovo in order to learn more about full-stack development and apply the skills I was learning during the internship, thus the choice of using HTML, CSS, JavaScript, and PHP.
+This is a personal project I started during my full-stack software developer internship in Summer 2022 at Edovo in order to learn more about full-stack development and apply the skills I was learning during the internship, thus the choice of using MongoDB, Express, HTML, CSS, JavaScript, and Node.js.
 
 Through this project, I faced challenges in integrating and utilizing an exisiting API and in building a database through the HTML inputs. As a student pursuing an undergraduate degree in Computer Science, I realized the coursework in college is very theoretical and does not encompass important topics such as API.
 
