@@ -39,7 +39,12 @@ app.get('/program', function (req, res) {
 });
 // Calendar Route
 app.get('/calendar', function (req, res) {
-    res.render('pages/calendar');
+    db.collection('workouts').find({}).toArray(function (err, result) {
+        console.log('Workout Collection: ' + JSON.stringify(result));
+        res.render('pages/calendar', {
+            workoutdetails: result
+        });
+    });
 });
 
 // *** POST Routes ***
@@ -62,5 +67,5 @@ app.post('/add', function(req, res) {
         if (err) throw err;
         console.log(result);
         res.redirect('/');
-    })
-})
+    });
+});
