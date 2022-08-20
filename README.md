@@ -12,9 +12,9 @@ Through this project, I faced challenges in integrating and utilizing an exisiti
 
 
 # Install
-Download all files and open the homepage HTML file through the terminal:
+Download all files and run this command in the root directory:
 ```
-$ open home.html
+$ npm start
 ```
 
 # Features
