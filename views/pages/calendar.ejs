@@ -34,6 +34,34 @@
                 </div>
             </div>
         </div>
+        <table>
+            <% workoutdetails.forEach(function(workout) { %>
+                <th><h3>Chest</h3></th>
+                <th><h3>Back</h3></th>
+                <th><h3>Shoulders</h3></th>
+                <th><h3>Arms</h3></th>
+                <th><h3>Legs</h3></th>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><%= workout.chest %></p>
+                        </td>
+                        <td>
+                            <p><%= workout.back %></p>
+                        </td>
+                        <td>
+                            <p><%= workout.shoulders %></p>
+                        </td>
+                        <td>
+                            <p><%= workout.arms %></p>
+                        </td>
+                        <td>
+                            <p><%= workout.legs %></p>
+                        </td>
+                    </tr>
+                </tbody>
+            <% }); %>
+        </table>
         <script src="/js/calendar.js"></script>
     </body>
 </html>
